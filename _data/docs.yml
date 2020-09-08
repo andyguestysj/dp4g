@@ -15,7 +15,7 @@
 
 - title: Assessment
   docs:
-  = assess-overview
+  - assess-overview
   - brief
   - submission
   - feedback
