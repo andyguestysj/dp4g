@@ -1,11 +1,25 @@
-- title: Getting Started
+- title: Introduction
   docs:
-  - home
-  - themes
-  - customization
+  - overview
+  - admin
+  - moreprogramming
+  - setup1
+  - studentvoice
 
-- title: Examples
+- title: Reference
   docs:
-  - cheatsheet
-  - font-awesome
-  - bootstrap
+  - replit
+  - git
+  - python
+  - pygame
+
+- title: Assessment
+  docs:
+  = assess-overview
+  - brief
+  - submission
+  - feedback
+
+- title: Topics
+
+- title: 0. Overview
