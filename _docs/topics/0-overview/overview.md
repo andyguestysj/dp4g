@@ -1,6 +1,6 @@
 ---
 title: Overview
-permalink: /docs/overview0/
+permalink: /docs/overview/
 ---
 
 ## Module Outline

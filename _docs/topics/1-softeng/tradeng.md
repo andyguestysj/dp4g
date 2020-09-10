@@ -1,6 +1,6 @@
 ---
 title: Traditional Software Engineering
-permalink: /docs/tradeng1/
+permalink: /docs/tradeng/
 ---
 
 ## Contents

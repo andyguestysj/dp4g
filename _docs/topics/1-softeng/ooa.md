@@ -1,6 +1,6 @@
 ---
-title: Agile
-permalink: /docs/agile1/
+title: Object Oriented Analysis & Design
+permalink: /docs/ooa/
 ---
 
 ## Contents

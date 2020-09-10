@@ -1,6 +1,6 @@
 ---
 title: Software Engineering
-permalink: /docs/intro1/
+permalink: /docs/intro/
 ---
 
 ## Contents
