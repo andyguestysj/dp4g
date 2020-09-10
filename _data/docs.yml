@@ -23,10 +23,12 @@
 - title: Topics
 
 - title: 0. Overview
-- overview
+  docs:
+  - overview
 
 - title: 1. Software Engineering
-- intro
-- tradeng
-- agile
-- ooa
+  docs:
+  - intro
+  - tradeng
+  - agile
+  - ooa
