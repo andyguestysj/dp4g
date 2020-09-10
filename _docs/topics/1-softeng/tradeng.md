@@ -41,4 +41,4 @@ If everything goes to plan the building will be completed on time, on budget and
 
 How does this work in software development? It is usually illustrated using the Waterfall Model. 
 
-![alt text](/assets/img/wfall1.png "The Waterfall Model")
+![The Waterfall Model](/assets/img/wfall1.png "The Waterfall Model")
