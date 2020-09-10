@@ -1,6 +1,6 @@
 ---
 title: Agile
-permalink: /docs/1agile/
+permalink: /docs/agile1/
 ---
 
 ## Contents

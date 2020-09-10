@@ -1,6 +1,6 @@
 ---
 title: Object Oriented Analysis & Design
-permalink: /docs/1ooa/
+permalink: /docs/ooa1/
 ---
 
 ## Contents

@@ -1,6 +1,6 @@
 ---
 title: Traditional Software Engineering
-permalink: /docs/1tradeng/
+permalink: /docs/tradeng1/
 ---
 
 ## Contents
@@ -24,3 +24,5 @@ This approach has met with mixed success. Sometimes it works well, sometimes it 
 Along the way some software developers decided that a different approach might be better. An approach that suited how they liked to work, something more flexible. They came up with the Agile Manifesto, a set of principles on how to approach software development. From this manifesto a number of Agile methodologies were developed. 
 
 Traditional software engineering is still very much in use though. There are circumstances where it is a better approach than an Agile one.
+
+## Traditional or Structured Engineering
