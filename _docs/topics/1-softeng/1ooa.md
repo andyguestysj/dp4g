@@ -1,6 +1,6 @@
 ---
-title: Traditional Software Engineering
-permalink: /docs/1tradeng/
+title: Object Oriented Analysis & Design
+permalink: /docs/1ooa/
 ---
 
 ## Contents

@@ -1,6 +1,6 @@
 ---
-title: Traditional Software Engineering
-permalink: /docs/1tradeng/
+title: Agile
+permalink: /docs/1agile/
 ---
 
 ## Contents
