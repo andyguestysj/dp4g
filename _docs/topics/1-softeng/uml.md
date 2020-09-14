@@ -23,9 +23,41 @@ It is beyond the scope of this module to cover every UML diagram. We will focus 
 
 ### Class Diagram
 
-Class Diagrams are probably the most useful to us and the ones we use most frequently. A Class Diagram represents a static view of an application. It shows a collection of classes, interfaces, associations, collaborations, and constraints. It is also known as a structural diagram.  
+Class Diagrams are probably the most useful to us and the ones we use most frequently. A Class Diagram represents a static view of an application. It shows a collection of classes, interfaces, associations, collaborations, and constraints. It is also known as a structural diagram. They show inheritance, composition, aggregation of classes.  
 
 ![UML Class Diagram](/assets/img/uml-class.jpg "UML Class Diagram")
+
+Each class is shown in a standardised form with three sections:-  
+1. Name
+2. Attributes
+  * Data stored as part of the class
+3. Operations
+  * Class functions  
+Attributes and operations may be described as + Public, - Private, # Protected.  
+
+![UML Class Diagram Example](/assets/img/umlclass.png "UML Class Diagram Example")
+
+#### UML Class Relationships
+
+In class diagrams lines drawn between classes describe the relationship between those classes.  
+**Instance Level Relationships**
+1. Association – shows a connection between the members of two classes
+  * Aggregation - implies a relationship where one object can exists independently of the other
+  * Composition - implies a relationship where one object cannot exist independently of the other 
+2. Inheritance – shows a parent / child relationship
+3. Realisation – shows the implementation of an interface
+4. Dependency - a relationship where one class uses another by parameter or return type
+
+![UML Class Relationships](/assets/img/umlrel.png "UML Class Relationships")  
+
+#### UML Class Associations
+
+**Association** is a link between members of two classes.
+![UML Class Association](/assets/img/umlassoc1.png "UML Class Association")  
+
+**Aggregation** – the two classes can exist independently
+**Composition** – one class cannot exist independently of the other (within the system) 
+![UML Class Association](/assets/img/umlassoc2.png "UML Class Association")  
 
 ### Object Diagram
 
