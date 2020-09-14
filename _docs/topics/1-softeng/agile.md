@@ -72,6 +72,19 @@ The development process is iterative and repeated over and over again during the
 
 ![Iterative Development](/assets/img/iter2.png "Iterative Developement")
 
+### Feature List
+Software is not fully designed at the start. Instead a list of desired features is created. New features may be added to the list at any time. The list is re-prioritised after every sprint.  
+
+![Feature List](/assets/img/backlog.jpg "Feature List")
+
+### Sprints
+Work is carried out in short sprints, where each sprint is focus on specific functionality to be implemented.  
+
+![Sprints](/assets/img/sprint.png "Sprints")
+
+### Always have a working build
+Having working software is not something that should be left till the end when all the completed components are integrated together. In Agile projects there should always be a working build of the software. Initially it will contain very few features but as each sprint is completed the output of that sprint should be added in to the working build. Ideally this process is automated. All features should be written in such a way that later updates do not break any previously working features.  
+
 ## Many Approaches
 The Agile Manifesto describes principles and values that should lead project management. It doesn't describe how to implement those principles in procedures. You cannot follow *The Agile Methodology* because there is no such thing. There are a number of Agile Methodologies each inspired by the manifesto. The methodologies have much in common but each is different.
 
