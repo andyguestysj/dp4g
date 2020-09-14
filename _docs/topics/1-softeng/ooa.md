@@ -35,7 +35,7 @@ They have two components
 * **Methods** - (or behaviour) are the ways in which the object can interact with its data, the actions.
 We use UML to illustrate classes
 
-![A Class in UML](/assets/img/class.png "A Class in UML")
+![A Class in UML](/assets/img/class.jpg "A Class in UML")
 
 A class is simply a collection of data and methods. A *good* class should be more than that.  
 A good class should :-  
