@@ -16,7 +16,7 @@ Programming consists of a number of different skills.
 
 The first two skills are (mostly) language independent, the processes are the same regardless of which programming language you use. (This is a simplification. OOP and structured programming do break down the problem in different ways. Programming languages all have specialisations that make some tasks easier and others harder. In general though the point is mostly correct)  
 
-The third skill, turning language in to code, is obviously language specific. However for most programming languages that code is very similar - 'if ()' statements all look kinda similar, 'for()' loops vary a little more but are easily recognisable. Once you know one language it is easier and faster to learn another.
+The third skill, turning logic in to code, is obviously language specific. However for most programming languages that code is very similar - 'if ()' statements all look kinda similar, 'for()' loops vary a little more but are easily recognisable. Once you know one language it is easier and faster to learn another.
 
 ### Python Programming Language
 

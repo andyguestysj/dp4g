@@ -53,11 +53,13 @@ In class diagrams lines drawn between classes describe the relationship between 
 #### UML Class Associations
 
 **Association** is a link between members of two classes.
-![UML Class Association](/assets/img/umlassoc1.png "UML Class Association")  
+![UML Class Association](/assets/img/umlassoc1.jpg "UML Class Association")  
 
 **Aggregation** – the two classes can exist independently
 **Composition** – one class cannot exist independently of the other (within the system) 
 ![UML Class Association](/assets/img/umlassoc2.png "UML Class Association")  
+
+
 
 ### Object Diagram
 
