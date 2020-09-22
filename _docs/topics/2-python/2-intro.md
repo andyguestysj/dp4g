@@ -1,6 +1,6 @@
 ---
 title: Python Overview
-permalink: /docs/2ntro/
+permalink: /docs/2intro/
 ---
 
 Python is an interpreted, high-level, general purpose programming language. It is designed to be very readable and there are many freely available libraries.  
