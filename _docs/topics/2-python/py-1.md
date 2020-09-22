@@ -94,3 +94,12 @@ Rules for Python variables:
 * A variable name cannot start with a number
 * A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
 * Variable names are case-sensitive (age, Age and AGE are three different variables)
+
+### Multiple Assignment To Variables
+Python allows you to assign a single value to several variables simultaneously. For example −  
+`a = b = c = 1`  
+Here, an integer object is created with the value 1, and all three variables are assigned to the same memory location.  
+
+You can also assign multiple objects to multiple variables. For example −  
+`a,b,c = 1,2,"john"`  
+Here, two integer objects with values 1 and 2 are assigned to variables a and b respectively, and one string object with the value "john" is assigned to the variable c.  
