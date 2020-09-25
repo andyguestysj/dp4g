@@ -103,3 +103,51 @@ Here, an integer object is created with the value 1, and all three variables are
 You can also assign multiple objects to multiple variables. For example −  
 `a,b,c = 1,2,"john"`  
 Here, two integer objects with values 1 and 2 are assigned to variables a and b respectively, and one string object with the value "john" is assigned to the variable c.  
+
+## Strings In Python
+Strings in Python are identified as a contiguous set of characters represented in the quotation marks. Python allows for either pairs of single or double quotes. Subsets of strings can be taken using the slice operator ([ ] and [:] ) with indexes starting at 0 in the beginning of the string and working their way from -1 at the end.  
+
+The plus (+) sign is the string concatenation operator and the asterisk (*) is the repetition operator. For example −  
+
+```python
+str = 'Hello World!'
+
+print str          # Prints complete string
+print str[0]       # Prints first character of the string
+print str[2:5]     # Prints characters starting from 3rd to 5th
+print str[2:]      # Prints string starting from 3rd character
+print str * 2      # Prints string two times
+print str + "TEST" # Prints concatenated string
+```
+This will produce the following result −  
+```console
+Hello World!
+H
+llo
+llo World!
+Hello World!Hello World!
+Hello World!TEST
+```
+
+## Type Conversion
+While Python variable have no fixed type it is sometimes useful to ensure data has a specific type. Python provides conversion functions for this purpose.  
+
+* int(x [,base]) - Converts x to an integer. base specifies the base if x is a string.
+* long(x [,base] ) - Converts x to a long integer. base specifies the base if x is a string.
+* float(x) - Converts x to a floating-point number.
+* complex(real [,imag]) - Creates a complex number.
+* str(x) - Converts object x to a string representation.
+* repr(x) - Converts object x to an expression string.
+* eval(str) - Evaluates a string and returns an object.
+* tuple(s) - Converts s to a tuple.
+* list(s) - Converts s to a list.
+* set(s) - Converts s to a set.
+* dict(d) - Creates a dictionary. d must be a sequence of (key,value) tuples.
+* frozenset(s) - Converts s to a frozen set.
+* chr(x) - Converts an integer to a character.
+* unichr(x) - Converts an integer to a Unicode character.
+* ord(x) - Converts a single character to its integer value.
+* hex(x) - Converts an integer to a hexadecimal string.
+* oct(x) - Converts an integer to an octal string.
+
+
