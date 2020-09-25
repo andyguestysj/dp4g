@@ -25,6 +25,7 @@ print list[1:3]     # Prints elements starting from 2nd till 3rd
 print list[2:]      # Prints elements starting from 3rd element
 print tinylist * 2  # Prints list two times
 print list + tinylist # Prints concatenated lists
+print (list[-2:-1]) # Prints elements starting from the second last to the last, negative indexes
 ```
 ```console
 ['abcd', 786, 2.23, 'john', 70.2]
@@ -34,6 +35,81 @@ abcd
 [123, 'john', 123, 'john']
 ['abcd', 786, 2.23, 'john', 70.2, 123, 'john']
 ```
+
+### Changing An Entry
+```python
+list = ['abcd', 786, 2.23, 'john', 70.2, 123, 'john']
+list[1] = 1
+# list is now ['abcd', 1, 2.23, 'john', 70.2, 123, 'john']
+```
+
+### List Size
+You can get the number of elements in a list using `len()`.  
+
+```python
+list = [123, 'john', 123, 'john']
+print(len(list))
+```
+
+### Adding to a list
+```python
+list = [123, 'john', 123, 'john']
+list.append(21)
+```
+
+### Removing from a list
+#### `remove()`
+```python
+list = [123, 'john', 123, 'john']
+list.remove('john')
+# list is now [123, 123]
+```
+`remove()` deletes the first matching entry.  
+
+#### `pop()`
+```python
+list = [123, 'john', 123, 'john']
+list.pop(2)
+# list is now [123, 'john', 'john']
+```
+`pop()` removes the item with the specified index.  
+
+#### `clear()`
+```python
+list = [123, 'john', 123, 'john']
+list.clear()
+# list is now []
+```
+`clear()` deletes the list
+
+### Copying Lists
+You cannot simply use `list2 = list1`, this will result in both being references to the same list. To make a copy of a list you can use the `copy()` function.  
+```python
+list1=[1,2,34,4,76]
+list2 = list1.copy()
+```
+
+### Concatenating Lists
+```python
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+
+list3 = list1 + list2
+
+list4 = list1.copy()
+for x in list2:
+    list4.append(x)
+```
+
+
+### Check is something is in the list
+```python
+list = [123, 'john', 123, 'john']
+if "john" in list:
+    print("found")
+```
+
+###
 
 ## Tuples
 
