@@ -42,13 +42,15 @@ print("Hello") # So is this
 
 ## No Semi-colons (;) at the end of lines
 
-Lines of code in Python **do not** end with a semi-colon.
+Lines of code in Python **do not need to** end with a semi-colon.  
 ```python
 # Correct
 print("Hello")
-# Incorrect
+# Not incorrect but considered improper
 print("Hello");
+print("hello"); print("world")
 ```
+You can use a semi-colon to write two commands on one line. Using it at the end of the line will work but is considered bad practice.  
 
 ## Scope In Python
 Scope in Python is defined by indentations. All the code in a function is indented. In an if statement all the indented code is part of the if. `{}` brackets are **not** used for scope.
@@ -149,5 +151,14 @@ While Python variable have no fixed type it is sometimes useful to ensure data h
 * ord(x) - Converts a single character to its integer value.
 * hex(x) - Converts an integer to a hexadecimal string.
 * oct(x) - Converts an integer to an octal string.
+
+#### Exercise 1 
+
+1. Log in to repl.it
+2. Go to [https://repl.it/@andyguest/pyBroken](https://repl.it/@andyguest/pyBroken)
+3. Click on the `fork` button at the top of the window to make a copy of the code in your own repls
+4. Click on the three lines at the top left of the window and then `My Repls` in the pop out menu
+5. Open the `pyBroken` repl from your area
+6. Fix the code so it runs without errors
 
 

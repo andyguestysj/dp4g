@@ -1,5 +1,5 @@
 ---
-title: FUnctions
+title: Functions
 permalink: /docs/py-4/
 ---
 
@@ -84,3 +84,13 @@ Bye
       Boo
       Boo
 ```
+
+
+#### Exercise 1 
+
+1. Log in to repl.it
+2. Go to [https://repl.it/@andyguest/pyFunctions](https://repl.it/@andyguest/pyFunctions)
+3. Click on the `fork` button at the top of the window to make a copy of the code in your own repls
+4. Click on the three lines at the top left of the window and then `My Repls` in the pop out menu
+5. Open the `pyFunctions` repl from your area
+6. Work your way through the tasks in the code - they are in the comments

@@ -51,6 +51,12 @@ list = [123, 'john', 123, 'john']
 print(len(list))
 ```
 
+### Sorting a List
+
+```python
+list.sort()
+```
+
 ### Adding to a list
 ```python
 list = [123, 'john', 123, 'john']
@@ -109,8 +115,6 @@ if "john" in list:
     print("found")
 ```
 
-###
-
 ## Tuples
 
  A tuple is another sequence data type that is similar to the list. A tuple consists of a number of values separated by commas. Unlike lists, however, tuples are enclosed within parentheses.  
@@ -151,11 +155,11 @@ dict[2]     = "This is two"
 tinydict = {'name': 'john','code':6734, 'dept': 'sales'}
 
 
-print dict['one']       # Prints value for 'one' key
-print dict[2]           # Prints value for 2 key
-print tinydict          # Prints complete dictionary
-print tinydict.keys()   # Prints all the keys
-print tinydict.values() # Prints all the values
+print (dict['one'])       # Prints value for 'one' key
+print (dict[2])           # Prints value for 2 key
+print (tinydict)          # Prints complete dictionary
+print (tinydict.keys())   # Prints all the keys
+print (tinydict.values()) # Prints all the values
 ```
 Produces
 ```console
@@ -168,4 +172,23 @@ This is two
 
 Dictionaries have no concept of order among elements. It is incorrect to say that the elements are "out of order"; they are simply unordered. Dictionary *keys*, the first value of each pair must be unique within a dicitonary. Dictionaries are very fast.  
 
+### Adding To A Dictionary
 
+```python
+dict = {1:'a',2:'s',3:'d'}
+dict[4:'p'] # adds a new key of 4 with a value of 'p'
+
+# to add multiple key/value pairs/
+new_dict = {5:'e',6:'g',7:'x'}
+dict.update(new_dict)
+```
+
+
+#### Exercise 1 
+
+1. Log in to repl.it
+2. Go to [https://repl.it/@andyguest/pyLists](https://repl.it/@andyguest/pyLists)
+3. Click on the `fork` button at the top of the window to make a copy of the code in your own repls
+4. Click on the three lines at the top left of the window and then `My Repls` in the pop out menu
+5. Open the `pyList` repl from your area
+6. Work your way through the tasks in the code - they are in the comments
