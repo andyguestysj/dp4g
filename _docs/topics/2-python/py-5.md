@@ -22,3 +22,6 @@ Yes this is the same exercise from this week's Programming 03 session. It should
 5. Open the `pyWordTask` repl from your area
 6. Work your way through the tasks in the code - they are in the comments
 
+You will need the following Python functions  
+To open and read from  a file [open](https://www.w3schools.com/python/python_file_handling.asp)  
+To split a string in to parts [split](https://www.w3schools.com/python/ref_string_split.asp)  
