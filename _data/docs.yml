@@ -41,3 +41,7 @@
   - py-2
   - py-3
   - py-5
+
+- title: 3. Python OOPs
+  docs:
+  - pyoops-1
