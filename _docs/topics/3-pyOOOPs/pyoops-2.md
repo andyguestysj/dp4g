@@ -18,7 +18,7 @@ class MultiDerived(Base1, Base2):
     pass
 ```
 
-![Multiple Inheritance](/assets/img/classdiagram.png "Inheriting from multiple parent classes")
+![Multiple Inheritance](/assets/img/minherit.jpg "Inheriting from multiple parent classes")
 
 The `MultiDerived` class inherits from both `Base1` and `Base2` classes.  
 
@@ -48,7 +48,7 @@ MultiDerived.mro()
 
  Multiple inheritance can get very involved..  
 
-![Multiple Inheritance](/assets/img/classdiagram.png "Inheriting from multiple parent classes")
+![Multiple Inheritance](/assets/img/minherit2.jpg "Inheriting from multiple parent classes")
 
 ## Operator Overloading
 
@@ -75,7 +75,7 @@ p2 = Point(4,2)
 p3 = p1 + p2
 ```
 
-### Operator Functions For Overloading
+### Arithmetic Operators
 
 |Operator|Expression|Internally|
 |---|---|---|
@@ -83,13 +83,13 @@ p3 = p1 + p2
 |Subtraction|p1 - p2|p1.__sub__(p2)|
 |Multiplication|p1 * p2|p1.__mul__(p2)|
 |Power|p1 ** p2|p1.__pow__(p2)|
-|Division|p1 / p2	p1.__truediv__(p2)|
+|Division|p1 / p2|p1.__truediv__(p2)|
 |Floor Division|p1 // p2|p1.__floordiv__(p2)|
 |Remainder (modulo)|p1 % p2|p1.__mod__(p2)|
 |Bitwise Left Shift|p1 << p2|p1.__lshift__(p2)|
 |Bitwise Right Shift|p1 >> p2|p1.__rshift__(p2)|
-|Bitwise AND|p1 & p2\p1.__and__(p2)|
-|Bitwise OR|p1 | p2|p1.__or__(p2)|
+|Bitwise AND|p1 & p2|p1.__and__(p2)|
+|Bitwise OR|p1 \| p2|p1.__or__(p2)|
 |Bitwise XOR|p1 ^ p2|p1.__xor__(p2)|
 |Bitwise NOT|~p1|p1.__invert__()|
 
