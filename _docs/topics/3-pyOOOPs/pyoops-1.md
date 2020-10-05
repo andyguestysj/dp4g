@@ -100,7 +100,114 @@ print(miles.description())
 print(miles.speak("Woof, Woof"))
 ```
 
+### __str__ Method
 
+Python provides for a number of methods like `__init__`. The `__str__` method allows you to "print" an object of the class and get a description.  
+
+```python
+class Dog:
+  # Leave other parts of Dog class as-is
+
+  def __str__(self):
+    return f"{self.name} is {self.age} years old"
+```
+
+```python
+miles = Dog("Miles",4)
+print(miles)
+```
+
+Methods like `__init__` and `__str__` are known as **dunder methods** because they begin and end with double underscores. See here for more info on [dunder methods](https://medium.com/python-features/magic-methods-demystified-3c9e93144bf7)  
+
+## Deleting Objects
+
+Objects can be deleted with `del object`. Be careful though, there is no easy way to test if an object exists before you try to use it. 
+
+## Inheritance
+
+Inheritance is the process by which one class takes on the attributes and methods of another. Newly formed classes are called child classes, and the classes that child classes are derived from are called parent classes. Python, being an object oriented language lets us create a class that inherits from another class.  
+
+```python
+class Dog:
+  species = "Canis familiaris"
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  # Instance method
+  def description(self):
+    return f"{self.name} is {self.age} years old"
+
+  # Another instance method
+  def speak(self, sound):
+    return f"{self.name} says {sound}"
+```
+
+```python
+class JackRusselTerrier(Dog):
+  def speak(self, sound="Arf"):
+    return f"{self.name} says {sound}"
+
+class Bulldog(Dog):
+  def speak(self, sound="Gruff"):
+    return f"{self.name} says {sound}"
+```
+
+Here we create a child class of `Dog` called `JackRusselTerrier` and override the speak method.  
+
+
+### type() and isinstance()
+
+Python provides 
+* `type()` a method that will return the class an object belongs to
+* `isinstance()` a method that will check to see if an object is an instance of a class. 
+
+```python
+bobby = JackRusselTerrier("Bobby",1)
+
+print(type(bobby)))
+print(isinstance(bobby,Dog))
+print(isinstance(bobby,Bulldog))
+print(isinstance(bobby,JackRusselTerrier))
+```
+
+## Encapsulation
+
+We can restrict access to methods and attributes to prevent them from direct modification. We can make attributes `private` by prefixing them with and underscore `_` or double underscore `__`.  
+
+```python
+class Computer:
+
+    def __init__(self):
+        self.__maxprice = 900
+
+    def sell(self):
+        print("Selling Price: {}".format(self.__maxprice))
+
+    def setMaxPrice(self, price):
+        self.__maxprice = price
+
+c = Computer()
+c.sell()
+
+# change the price
+c.__maxprice = 1000
+c.sell()
+
+# using setter function
+c.setMaxPrice(1000)
+c.sell()
+```
+
+Output
+
+```console
+Selling Price: 900
+Selling Price: 900
+Selling Price: 1000
+```
+
+The line `c.__maxprice = 1000` does not change the value because it is `private` and can only be changed within the class.  
 
 
 
