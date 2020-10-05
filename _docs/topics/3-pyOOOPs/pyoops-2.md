@@ -124,7 +124,7 @@ p3 = p1 + p2
 ```python
 fred = Dog("Fred",5)
 wilma = Dog("Wilma",4)
-bambam = fred + wilma
+pebbles = fred + wilma
 ```
 The new dog's name should be set to "Child of Fred and Wilma" and its age should be set to 0.
 

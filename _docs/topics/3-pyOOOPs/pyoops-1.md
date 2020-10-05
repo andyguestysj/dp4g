@@ -122,7 +122,6 @@ Methods like `__init__` and `__str__` are known as **dunder methods** because th
 ## Deleting Objects
 
 Objects can be deleted with `del object`. Be careful though, there is no easy way to test if an object exists before you try to use it. 
-
 ## Inheritance
 
 Inheritance is the process by which one class takes on the attributes and methods of another. Newly formed classes are called child classes, and the classes that child classes are derived from are called parent classes. Python, being an object oriented language lets us create a class that inherits from another class.  
@@ -209,5 +208,13 @@ Selling Price: 1000
 
 The line `c.__maxprice = 1000` does not change the value because it is `private` and can only be changed within the class.  
 
+#### Exercise 1 
 
+1. Log in to repl.it
+2. Go to [https://repl.it/@andyguest/pyFirstClass](https://repl.it/@andyguest/pyFirstClass)
+3. Click on the `fork` button at the top of the window to make a copy of the code in your own repls
+4. Click on the three lines at the top left of the window and then `My Repls` in the pop out menu
+5. Open the `pyFirstClass` repl from your area
+6. The file `Dog.py` contains the Dog classes.
+7. Work your way through the tasks in the code - they are in the comments
 
