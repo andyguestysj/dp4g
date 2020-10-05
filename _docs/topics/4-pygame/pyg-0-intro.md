@@ -3,12 +3,6 @@ title: Pygame - Introduction
 permalink: /docs/pyg-0-intro/
 ---
 
-This module is focused on the game development process and its useful to illustrate this by, well, going through the process, and that means making a game or two along the way. So we're going to have a look at using Pygame to make games. Pygame is a games library for the Python programming language.  
-
-This module isn't a **programming** module as such. You won't be assessed on your coding or even your code design. I'm not expecting you to learn a whole new language (Python) when you are still being taught the first one (Java). I'll provide you with games as a starting point, provide you with code to work from and to use. You might need to extend it a little but I'm happy to explain how to do that.   
-
-I want to show you how things work in games and Python with Pygame gives me a way to do this. Ideally I'd like to use a Game Engine but getting that installed, setup and supported on computers you can use is very difficult under the current situation. So we'll use Pygame and see what we can do!  
-
 ## Pygame On repl.it
 
 Repl.it, the browser based code compiler, supports Pygame. If you haven't already [signed up for a repl.it account](repl.it) please do so now.  
