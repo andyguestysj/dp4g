@@ -22,6 +22,14 @@ class MultiDerived(Base1, Base2):
 
 The `MultiDerived` class inherits from both `Base1` and `Base2` classes.  
 
+#### Exercise 1 
+1. Return to repl.it and your pyFirstClass code from the previous page.
+2. Give the JackRusselTerrier a method called "is_scrappy()" that returns a string describing how the dog behaves around others
+3. Give the subclass you created a method no other class has that describes a unique feature of your dog
+4. Create a new mutant dog class that inherits from both your dog class and JackRusselTerrier
+5. Create an object of this new class
+6. Verify that you can call both the scrappy() method and your new method on the mutant dog
+
 ### Method Resolution Order
 
 In the multiple inheritance scenario, any specified attribute is searched first in the current class. If not found, the search continues into parent classes in depth-first, left-right fashion without searching the same class twice.  
@@ -49,6 +57,11 @@ MultiDerived.mro()
  Multiple inheritance can get very involved..  
 
 ![Multiple Inheritance](/assets/img/minherit2.jpg "Inheriting from multiple parent classes")
+
+#### Exercise 2
+1. Return to pyFirstClass
+2. Print out `__mro__` and `mro()` for your mutant dog class
+
 
 ## Operator Overloading
 
@@ -92,4 +105,26 @@ p3 = p1 + p2
 |Bitwise OR|p1 \| p2|p1.__or__(p2)|
 |Bitwise XOR|p1 ^ p2|p1.__xor__(p2)|
 |Bitwise NOT|~p1|p1.__invert__()|
+
+### Comparison Operators
+
+
+|Operator|Expression|Internally|
+|---|---|---|
+|Less than|p1 < p2|p1.__lt__(p2)|
+|Less than or equal to|p1 <= p2|p1.__le__(p2)|
+|Equal to|p1 == p2|p1.__eq__(p2)|
+|Not equal to|p1 != p2|p1.__ne__(p2)|
+|Greater than|p1 > p2|p1.__gt__(p2)|
+|Greater than or equal to|p1 >= p2|p1.__ge__(p2)|
+
+#### Exercise 2
+1. Return to pyFirstClass
+2. Override the addition operator on the `Dog` class so that you can create a new dog object with the code below
+```python
+fred = Dog("Fred",5)
+wilma = Dog("Wilma",4)
+bambam = fred + wilma
+```
+The new dog's name should be set to "Child of Fred and Wilma" and its age should be set to 0.
 

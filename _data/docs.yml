@@ -46,3 +46,9 @@
   docs:
   - pyoops-1
   - pyoops-2
+
+- title: 4. Pygame
+  docs:
+  - pyg-0-intro
+  - pyg-1-basics
+  - pyg-2-animation
