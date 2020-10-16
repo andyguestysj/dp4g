@@ -27,7 +27,7 @@ Summarised from the link below.
 The Sprint starts with the whole team meeting for for a Sprint Planning session.  
 
 <centre>        
-    <img src="{{ "/assets/img/agile/printpbp.png" | relative_url }}" alt="Sprint Overview" class="img-responsive">
+    <img src="{{ "/assets/img/agile/sprintpbp.png" | relative_url }}" alt="Sprint Overview" class="img-responsive">
 </centre>
 
 #### Sprint Planning
