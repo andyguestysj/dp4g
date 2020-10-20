@@ -33,6 +33,10 @@ Every member of the team should register for a Trello account at [www.trello.com
 
 One member of your team should set up a team Task Board and invite everyone in the group to join it. Once again please invite me (a.guest@yorksj.ac.uk).  
 
+### 5. Other Tools
+
+You are of course, free to set up any other tools/accounts you feel may be useful. Again make sure you invite everyone in the team (and me) to any group tools/accounts you decide to use.  
+
 ## Project Planning
 
 You will be managing this project using Agile Scrum Methodology. This means the work will be done in *sprints*. Please put together a schedule for your sprints.
