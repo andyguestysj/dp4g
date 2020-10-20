@@ -67,7 +67,7 @@ Every day during the Sprint a Daily Scrum meeting is held. The entire developmen
 The Daily Scrum is *not the place to respond* to any issues raised, those discussions should take place after the meeting. The purpose of the Daily Scrum is help everyone focus and be aware of the sprint progress.  
 
 #### Product Backlog Refinement
-The Product backlog should be refined regularly. This might be half an hour daily or an hour or two twice a week. A refinement session begins with the Product Owner presenting the current Product Backlog to the team. The team start at the top of the backlog and work their way down the list, refining each feature in turn. (Planning Poker may be used here). 
+The Product backlog should be refined regularly. This might be half an hour daily or an hour or two twice a week. A refinement session begins with the Product Owner presenting the current Product Backlog to the team. The team start at the top of the backlog and work their way down the list, refining each feature in turn. (Planning Poker may be used here - there are online tools for this - one is [https://www.planningpoker.com/](https://www.planningpoker.com/)). 
 
 #### Collaborative Working
 
