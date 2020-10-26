@@ -3,7 +3,7 @@ title: Introduction
 permalink: /docs/pat1-0/
 ---
 
-The following pages are adapted from content from [www.gameprogrammingpatterns.com](www.gameprogrammingpatterns.com), to give an overview of different Design Patterns.  
+The following pages are adapted from content from [www.gameprogrammingpatterns.com](www.gameprogrammingpatterns.com), to give an overview of different Design Patterns.  Any "I" references are the authors not mine.
 
 They each follow the same structure.  
 
