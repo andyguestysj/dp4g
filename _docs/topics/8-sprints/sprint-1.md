@@ -1,6 +1,6 @@
 ---
 title: Sprint 2
-permalink: /docs/sprint-2/
+permalink: /docs/sprint-1/
 ---
 
 ## Sprint Review & Retrospective
