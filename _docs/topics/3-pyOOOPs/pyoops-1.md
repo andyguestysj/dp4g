@@ -44,7 +44,7 @@ Unlike Java you cannot have multiple constructors. There are ways of doing this 
 
 ### Class Attributes
 
-In Python member variables are called *attributes*. They are added to the class definition as normal (for Python variables).  
+In Python member variables are called *attributes*. They are added to the class definition as normal (for Python variables). **Class attributes** are *shared between all objects of the class*. If you change a class attribute for one object of the class you *change it for all objects of that class*.
 
 ```python
 class Dog:
@@ -64,7 +64,7 @@ miles.age = 5
 
 ### Instance Attributes
 
-Python classes have two different types of attributes. *Instance attributes* are attributes that must be provided when an object is created. These are the attributes from the `__init__` function. *Class attributes* are defined as part of the class and are set to defaults.  
+Python classes have two different types of attributes. *Instance attributes* are attributes that must be provided when an object is created. These are the attributes created in the `__init__` function. **Instance attributes** are *object specific*. Changing an instance attribute for one object changes it only for that object.
 
 ## Instance Methods
 
