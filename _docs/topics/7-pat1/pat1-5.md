@@ -11,7 +11,9 @@ Code at [https://repl.it/@andyguest/pyStatePattern1](https://repl.it/@andyguest/
 
 ### Enum
 
-Enum's in Python can be made using the `Enum` class from `enum`. [enum](https://docs.python.org/3/library/enum.html)  
+Enum's in Python can be made using the `Enum` class from `enum`.   
+
+[enum description](https://docs.python.org/3/library/enum.html)   
 
 ```python
 from enum import Enum, auto
@@ -56,6 +58,125 @@ class Heroine:
         self.setGraphics(IMAGE_STAND)
 ```
 
-## Heropine State Pattern 
+## Heroine State Pattern 
 
 Code at [https://repl.it/@andyguest/pyStatePattern2](https://repl.it/@andyguest/pyStatePattern2)
+
+```python
+from enum import Enum, auto
+
+class Input(Enum):
+  RELEASE_DOWN = auto()
+  PRESS_B = auto()
+
+class State(Enum):
+  STATE_STANDING = auto()
+  STATE_JUMPING = auto()
+  STATE_DUCKING = auto()
+  STATE_DIVING = auto()
+
+class HeroineState:
+  def __init__(self):
+    pass
+  def onEnter(heroine):
+    pass
+  def handleInput(self, heroine, input):
+    pass
+  def update(self):
+    pass
+
+class StandingState(HeroineState):
+  def __init__(self):
+    pass
+  def onEnter(heroine):
+    heroine.setGraphics("standing")
+  def handleInput(self, heroine, input):
+    if input == Input.PRESS_B:
+      return JumpingState()    
+  def update(self):
+    pass
+
+class JumpingState(HeroineState):
+  def __init__(self):
+    pass
+  def handleInput(self, heroine, input):
+    pass
+  def update(self):
+    pass
+
+class DivingState(HeroineState):
+  def __init__(self):
+    pass
+  def handleInput(self, heroine, input):
+    pass
+  def update(self):
+    pass
+
+
+class DuckingState(HeroineState):
+  MAX_CHARGE = 10
+  def __init__(self):
+    self._chargeTime = 0
+  def handleInput(self, heroine, input):
+    if input == Input.RELEASE_DOWN:      
+      return StandingState()
+  def update(self):
+    self.chargeTime+=1
+    if self.chargeTime > self.MAX_CHARGE:
+      ## superbomb
+      pass
+
+class Equipment(Enum):
+  EQUIPMENT_SWORD = auto()
+  EQUIPMENT_PISTOL = auto()
+  EQUIPMENT_SMG = auto()
+  EQUIPMENT_SHOTGUN = auto()
+
+class EquipmentState:
+  def __init__(self):
+    pass
+  def onEnter(heroine):
+    pass
+  def handleInput(self, heroine, input):
+    pass
+  def update(self):
+    pass
+
+class SwordEquipmentState:
+  def __init__(self):
+    pass
+  def onEnter(heroine):
+    pass
+  def handleInput(self, heroine, input):
+    pass
+  def update(self):
+    pass
+
+
+
+
+class Heroine:
+  def __init__(self):
+    self.state = StandingState()
+    self.equipment = SwordEquipmentState()
+
+  def handleInput(self, input):
+    newState = self.state.handleInput(input)
+    if newState is not None:
+      del self.state
+      self.state = newState
+      self.state.onEnter(self)
+    newEquipment = self.equipment.handleInput(input)
+    if newEquipment is not None:
+      del self.equipment
+      self.equipment = newEquipment
+      self.equipment.onEnter(self)
+
+  def update(self):
+    self.state.update()
+    self.equipment.update()
+
+  def setGraphics(image):
+    # set graphics for state
+    pass
+```
