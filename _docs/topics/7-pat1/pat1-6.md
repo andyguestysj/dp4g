@@ -118,10 +118,6 @@ class ParticlePool:
     pass
 
   def create(self,x, y, xVel, yVel, lifetime):
-    if (len(self._used) + len(self._unused)) >= self.POOL_SIZE:
-      # pool full, don't create a particle
-      return None
-
     # if we have unused particles use one of them
     if len(self._unused)>0:
       # grab an unused particle and remove it from the unused list
@@ -130,12 +126,14 @@ class ParticlePool:
       newParticle.init(x, y, xVel, yVel, lifetime)
       # add the particle to the used list
       self._used.append(newParticle)
-    else:
+    elif len(self._used)< self.POOL_SIZE:
       # no available unused particles but pool not full, so add new particle to used 
       newParticle = Particle()
       newParticle.init(x, y, xVel, yVel, lifetime)
       self._used.append(newParticle)
-    
+    else:
+      # pool full, can't create new
+      return None
 
   
   def animate(self):
