@@ -26,7 +26,7 @@ The refactoring techniques in this group streamline methods, remove code duplica
 #### Extract Method
 <div class="row">
 <div class="column" markdown="1">
-<p>**Problem**  
+**Problem**  
 You have a code fragment that can be grouped together  
 
 ```python
@@ -37,10 +37,10 @@ def printOwing():
 print("Name : ", self.name
 print("Amount : ", getOutstanding())
 ```
-Why? – the more lines in a method, the harder it is to figure out what a method does.  </P>
+Why? – the more lines in a method, the harder it is to figure out what a method does.  
 </div>
 <div class="column"  markdown="1">
-<P>**Solution**  
+**Solution**  
 Move this code to a separate, new method
 
 ```python
@@ -51,7 +51,7 @@ def printOwing():
 def printDetails(outstanding):
 print("Name : ", self.name
 print("Amount : ", outstanding)
-```  </P>
+```  
 </div>
 </div>
 
@@ -64,12 +64,12 @@ print("Amount : ", outstanding)
 
 
 <div class="row">
-    <div class="col-6" markdown="1">
-    LHS
-    </div>
-    <div class="col-6"  markdown="1">
-    RHS
-    </div>
+<div class="column" markdown="1">
+LHS
+</div>
+<div class="column" markdown="1">
+RHS
+</div>
 </div>
 
 <img src="/assets/img/other/blob.jpg" alt="The Blob!">
