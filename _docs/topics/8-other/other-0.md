@@ -91,5 +91,8 @@ Frequently, the focus is shifted from decomposing to a level where the problem c
 "As long as we follow the plan and don't diverge from it, we will be successful."  
 "We have a plan; we just need to follow it!"  
 
-<img src="/assets/img/other/deathbyplanning.png" alt="eath By Planning">
+<img src="/assets/img/other/deathbyplanning.png" alt="Death By Planning">
 
+## Summary
+
+Anti-patterns are bad practices that may seem appropriate at first but lead to problems. Anti-pattern descriptions include advice on how to avoid them and how to recover from them.
