@@ -72,6 +72,31 @@ RHS
 </div>
 </div>
 
+
+<div class="row">
+<div class="col-md-6"  markdown="1">
+**Doubly Linked List**
+
+```c
+typedef struct Node { 
+    int data; 
+    struct Node* next; // Pointer to next node in DLL 
+    struct Node* prev; // Pointer to previous node in DLL 
+}Node;
+```
+</div>
+<div class="col-md-6"  markdown="1">
+**Singly Linked List**
+
+```c
+typedef struct Node { 
+    int data; 
+    struct Node* next; // Pointer to next node in DLL     
+}Node;
+```
+</div>
+</div>
+
 <img src="/assets/img/other/blob.jpg" alt="The Blob!">
 
 
