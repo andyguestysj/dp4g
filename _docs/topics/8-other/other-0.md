@@ -38,7 +38,7 @@ Common anti-patterns include :-
 
 ### The Blob / The God Class
 
-<div class="row">
+<div class="row" markdown=1>
 <div class="col-8">
 The Blob is found in designs where one class monopolizes the processing, and other classes primarily encapsulate data.   
 This Anti-pattern is characterized by a class diagram composed of a single complex controller class surrounded by simple data classes.  
