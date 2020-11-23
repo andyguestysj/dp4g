@@ -64,10 +64,10 @@ print("Amount : ", outstanding)
 
 
 <div class="row">
-<div class="column" markdown="1">
+<div class="column" markdown=1>
 LHS
 </div>
-<div class="column" markdown="1">
+<div class="column" markdown=1>
 RHS
 </div>
 </div>
