@@ -25,7 +25,7 @@ The refactoring techniques in this group streamline methods, remove code duplica
 
 #### Extract Method
 <div class="row">
-    <div class="col-md-6" markdown="1">**Problem**  
+    <div class="col-6" markdown="1">**Problem**  
     You have a code fragment that can be grouped together  
 
     ```python
@@ -38,7 +38,7 @@ The refactoring techniques in this group streamline methods, remove code duplica
     ```
     Why? – the more lines in a method, the harder it is to figure out what a method does.
     </div>
-    <div class="col-md-6"  markdown="1">**Solution**  
+    <div class="col-6"  markdown="1">**Solution**  
     Move this code to a separate, new method
 
     ```python
@@ -62,10 +62,10 @@ The refactoring techniques in this group streamline methods, remove code duplica
 
 
 <div class="row">
-    <div class="col-md-6" markdown="1">
+    <div class="col-6" markdown="1">
     LHS
     </div>
-    <div class="col-md-6"  markdown="1">
+    <div class="col-6"  markdown="1">
     RHS
     </div>
 </div>

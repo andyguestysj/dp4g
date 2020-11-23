@@ -55,14 +55,14 @@ The key problem here is that the majority of the responsibilities are allocated 
 ### The Golden Hammer
 
 <div class="row">
-    <div class="col-8" markdown="1">
-          A common anti-pattern in industry. A company buys in a software package, often a database, at great expense. The vendor will push for the company to use the package in every situation, often providing extensions to encourage this.  
+<div class="col-8" markdown="1">
+A common anti-pattern in industry. A company buys in a software package, often a database, at great expense. The vendor will push for the company to use the package in every situation, often providing extensions to encourage this.  
 *“If you have a hammer, everything looks like a nail” *  
 That package is seldom the best solution to every problem.  
-    </div>
-    <div class="col-4">
-    <img src="/assets/img/other/goldenhammer.png" alt="The Golden Hammer">
-    </div>
+</div>
+<div class="col-4">
+<img src="/assets/img/other/goldenhammer.png" alt="The Golden Hammer">
+</div>
 </div>
 
 ### Mushroom Management
