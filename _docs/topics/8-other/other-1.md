@@ -24,8 +24,9 @@ Much of refactoring is devoted to correctly composing methods. In most cases, ex
 The refactoring techniques in this group streamline methods, remove code duplication, and pave the way for future improvements.  
 
 #### Extract Method
+
 <div class="row">
-<div class="column" markdown="1">
+<div class="col-md-6"  markdown="1">
 **Problem**  
 You have a code fragment that can be grouped together  
 
@@ -39,7 +40,7 @@ print("Amount : ", getOutstanding())
 ```
 Why? – the more lines in a method, the harder it is to figure out what a method does.  
 </div>
-<div class="column"  markdown="1">
+<div class="col-md-6"  markdown="1">
 **Solution**  
 Move this code to a separate, new method
 
@@ -55,48 +56,26 @@ print("Amount : ", outstanding)
 </div>
 </div>
 
-
-
-
-
-
-
-
-
-<div class="row">
-<div class="col-md-6" markdown="1">
-LHS
-</div>
-<div class="col-md-6" markdown="1">
-RHS
-</div>
-</div>
-
+#### Inline Temp
 
 <div class="row">
 <div class="col-md-6"  markdown="1">
-**Doubly Linked List**
+**Problem**  
+You have a temporary variable that is assigned the result of a simple expression and nothing more
 
-```c
-typedef struct Node { 
-    int data; 
-    struct Node* next; // Pointer to next node in DLL 
-    struct Node* prev; // Pointer to previous node in DLL 
-}Node;
+```python
+def hasDiscount(order):
+    basePrice = order.basePrice()
+    return (basePrice > 1000)
 ```
 </div>
 <div class="col-md-6"  markdown="1">
-**Singly Linked List**
+**Solution**  
+Replace the references to the variable with the expression itself
 
-```c
-typedef struct Node { 
-    int data; 
-    struct Node* next; // Pointer to next node in DLL     
-}Node;
-```
+```python
+def hasDiscount(order):
+    return (order.basePrice > 1000)
+```  
 </div>
 </div>
-
-<img src="/assets/img/other/blob.jpg" alt="The Blob!">
-
-
