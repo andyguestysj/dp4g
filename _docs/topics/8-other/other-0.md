@@ -73,10 +73,10 @@ aka Pseudo-Analysis, Blind Development
 *“Keep your developers in the dark and feed them fertilizer”*  
 (Not usually phrased as fertilizer!)  
 Some managers have a policy of isolating the system developers from the end users, preferring to pass information through managers and analysts. Mushroom managers assume requirements are known and understood at inception and do not change.  
-     </div>
-    <div class="col-4">
-    <img src="/assets/img/other/mushroom.jpg" alt="Mushrooms">
-    </div>
+</div>
+<div class="col-4">
+<img src="/assets/img/other/mushroom.jpg" alt="Mushrooms">
+</div>
 </div>
 
 ### Cover Your Assets
@@ -88,13 +88,14 @@ Document-driven software processed often produce less than useful requirements a
 ### Design by Committee
 
 <div class="row">
-    <div class="col-8" markdown=1>“A camel is a horse designed by committee”  
+<div class="col-8" markdown=1>
+“A camel is a horse designed by committee”  
 A complex software design is the product of a committee process. It has so many features and variations that it is infeasible for any group of developers to realize the specifications in a reasonable time frame.  
 Even if the designs were possible, it would not be possible to test the full design due to excessive complexity, ambiguities, over-constraint, and other specification defects. The design would lack conceptual clarity because so many people contributed to it and extended it during its creation.  
-     </div>
-    <div class="col-4">
-    <img src="/assets/img/other/committee.png" alt="Design by Committee">
-    </div>
+</div>
+<div class="col-4">
+<img src="/assets/img/other/committee.png" alt="Design by Committee">
+</div>
 </div>
 
 ### Reinvent The Wheel
