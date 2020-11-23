@@ -47,7 +47,7 @@ The key problem here is that the majority of the responsibilities are allocated 
 *Causes* – developing code with a procedural mind-set and shoe-horning it in to classes. Development by accumulation over time.  
 </div>
 <div class="col-6" markdown="1">
-<img src="/assets/img/other/blob.jpg" alt="The Blob!">
+![The Blob!](/assets/img/other/blob.jpg "The Blob!")  
 </div>
 </div> 
 
