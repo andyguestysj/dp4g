@@ -43,8 +43,7 @@ Common anti-patterns include :-
 This Anti-pattern is characterized by a class diagram composed of a single complex controller class surrounded by simple data classes.  
 The key problem here is that the majority of the responsibilities are allocated to a single class.  
 *Solution* – examine the methods in the god class and identify the “natural homes” for them in the other classes.  
-*Causes* – developing code with a procedural mind-set and shoe-horning it in to classes. Development by accumulation over time.
-    </div>
+*Causes* – developing code with a procedural mind-set and shoe-horning it in to classes. Development by accumulation over time.</div>
     <div class="col-md-4">
     <img src="/assets/img/other/blob.jpg" alt="The Blob!">
     </div>
