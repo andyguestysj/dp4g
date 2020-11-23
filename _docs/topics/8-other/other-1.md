@@ -30,14 +30,14 @@ The refactoring techniques in this group streamline methods, remove code duplica
 You have a code fragment that can be grouped together  
 
 ```python
-def printOwing()
+def printOwing():
     printBanner()
 
 # Print details
 print("Name : ", self.name
 print("Amount : ", getOutstanding())
 ```
-Why? – the more lines in a method, the harder it is to figure out what a method does.
+Why? – the more lines in a method, the harder it is to figure out what a method does.  
 </div>
 <div class="column"  markdown="1">
 **Solution**  
@@ -51,7 +51,7 @@ def printOwing():
 def printDetails(outstanding):
 print("Name : ", self.name
 print("Amount : ", outstanding)
-```
+```  
 </div>
 </div>
 
