@@ -38,46 +38,25 @@ Common anti-patterns include :-
 
 ### The Blob / The God Class
 
-<div class="row">
-<div class="col-6" markdown="1">
 The Blob is found in designs where one class monopolizes the processing, and other classes primarily encapsulate data.   
 This Anti-pattern is characterized by a class diagram composed of a single complex controller class surrounded by simple data classes.  
 The key problem here is that the majority of the responsibilities are allocated to a single class.  
 *Solution* – examine the methods in the god class and identify the “natural homes” for them in the other classes.  
 *Causes* – developing code with a procedural mind-set and shoe-horning it in to classes. Development by accumulation over time.  
-</div>
-<div class="col-6" markdown="1">
-![The Blob!](/assets/img/other/blob.jpg "The Blob!")  
-</div>
-</div> 
 
 
 ### The Golden Hammer
 
-<div class="row">
-<div class="col-8" markdown="1">
 A common anti-pattern in industry. A company buys in a software package, often a database, at great expense. The vendor will push for the company to use the package in every situation, often providing extensions to encourage this.  
 *“If you have a hammer, everything looks like a nail” *  
 That package is seldom the best solution to every problem.  
-</div>
-<div class="col-4" markdown="1">
-<img src="/assets/img/other/goldenhammer.png" alt="The Golden Hammer">
-</div>
-</div>
 
 ### Mushroom Management
 
-<div class="row">
-<div class="col-8" markdown="1">
 aka Pseudo-Analysis, Blind Development  
 *“Keep your developers in the dark and feed them fertilizer”*  
 (Not usually phrased as fertilizer!)  
 Some managers have a policy of isolating the system developers from the end users, preferring to pass information through managers and analysts. Mushroom managers assume requirements are known and understood at inception and do not change.     
-</div>
-<div class="col-4" markdown="1">
-<img src="/assets/img/other/mushroom.jpg" alt="Mushrooms">
-</div>
-</div>
 
 ### Cover Your Assets
  
@@ -87,16 +66,9 @@ Document-driven software processed often produce less than useful requirements a
 
 ### Design by Committee
 
-<div class="row">
-<div class="col-8" markdown=1>
 “A camel is a horse designed by committee”  
 A complex software design is the product of a committee process. It has so many features and variations that it is infeasible for any group of developers to realize the specifications in a reasonable time frame.  
 Even if the designs were possible, it would not be possible to test the full design due to excessive complexity, ambiguities, over-constraint, and other specification defects. The design would lack conceptual clarity because so many people contributed to it and extended it during its creation.   
-</div>
-<div class="col-4" markdown="1">
-<img src="/assets/img/other/committee.png" alt="Design by Committee">
-</div>
-</div>
 
 ### Reinvent The Wheel
 

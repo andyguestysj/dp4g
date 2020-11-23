@@ -25,32 +25,33 @@ The refactoring techniques in this group streamline methods, remove code duplica
 
 #### Extract Method
 <div class="row">
-    <div class="col-6" markdown="1">**Problem**  
-    You have a code fragment that can be grouped together  
+<div class="col-6" markdown="1">
+**Problem**  
+You have a code fragment that can be grouped together  
 
-    ```python
-    def printOwing()
-        printBanner()
+```python
+def printOwing()
+    printBanner()
 
-    # Print details
-    print("Name : ", self.name
-    print("Amount : ", getOutstanding())
-    ```
-    Why? – the more lines in a method, the harder it is to figure out what a method does.
-    </div>
-    <div class="col-6"  markdown="1">**Solution**  
-    Move this code to a separate, new method
+# Print details
+print("Name : ", self.name
+print("Amount : ", getOutstanding())
+```
+Why? – the more lines in a method, the harder it is to figure out what a method does.
+</div>
+<div class="col-6"  markdown="1">**Solution**  
+Move this code to a separate, new method
 
-    ```python
-    def printOwing():
-        printBanner()
-        printDetails(getOutstanding())
+```python
+def printOwing():
+    printBanner()
+    printDetails(getOutstanding())
 
-    def printDetails(outstanding):
-    print("Name : ", self.name
-    print("Amount : ", outstanding)
-    ```
-    </div>
+def printDetails(outstanding):
+print("Name : ", self.name
+print("Amount : ", outstanding)
+```
+</div>
 </div>
 
 
