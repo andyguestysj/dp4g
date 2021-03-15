@@ -9,7 +9,7 @@ Rather than pointlessly copying and pasting all the text from [https://gameprogr
 
 ### Framebuffer Code
 
-[Framebuffer example in repl.it](https://repl.it/@andyguest/pyDoubleBufferFrames#main.py)
+[Framebuffer example in replit.com](https://replit.com/@andyguest/pyDoubleBufferFrames#main.py)
 
 **framebuffer.py**
 ```python
@@ -100,7 +100,7 @@ myScene.show("both")
 
 ### Actors Code
 
-[actors example in repl.it](https://repl.it/@andyguest/pyDoubleBufferActors)
+[actors example in replit.com](https://replit.com/@andyguest/pyDoubleBufferActors)
 
 **actor.py**
 ```python

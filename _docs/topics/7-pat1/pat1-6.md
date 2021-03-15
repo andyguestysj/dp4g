@@ -62,7 +62,7 @@ class ParticlePool:
 
 This could still be more efficient. 100 particles are created at the start, if only fifty are ever used at a time we are wasting memory and processing power. Additionally we have to iterated through every particle when animating, accessing the unused ones only to discover we don't need to do anything with them.  
 
-Code at [https://repl.it/@andyguest/pyObjectPool](https://repl.it/@andyguest/pyObjectPool)
+Code at [https://replit.com/@andyguest/pyObjectPool](https://replit.com/@andyguest/pyObjectPool)
 
 ## More Efficient Version
 
@@ -74,7 +74,7 @@ This approach means we never create new particles unless we need more than are c
 
 The object pool pattern should improve performance if the number of active objects varies or if you are regularly creating and deleting objects. 
 
-Code at [https://repl.it/@andyguest/pyObjectPool2](https://repl.it/@andyguest/pyObjectPool2)
+Code at [https://replit.com/@andyguest/pyObjectPool2](https://replit.com/@andyguest/pyObjectPool2)
 
 ```python
 import random

@@ -11,7 +11,7 @@ The observer method is a **Behavioral Design Pattern** which allows you to defin
 
 ![Observer pattern diagram](/assets/img/pat1/Observer.png "Observer pattern diagram")    
 
-[Code in replit](https://repl.it/@andyguest/pyObserver)  
+[Code in replit](https://replit.com/@andyguest/pyObserver)  
 [Originally from https://www.geeksforgeeks.org/observer-method-python-design-patterns/](https://www.geeksforgeeks.org/observer-method-python-design-patterns/) so is not a perfect match for the Game Patterns books  
 
 ```python

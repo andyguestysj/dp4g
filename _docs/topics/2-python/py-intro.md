@@ -31,7 +31,7 @@ Apart from the above-mentioned features, Python has a big list of good features,
 * It can be easily integrated with C, C++, COM, ActiveX, CORBA, and Java.
 
 ## Installing Python
-We will be using [repl.it](https://repl.it/~) to develop Python and Pygame code. 
+We will be using [replit.com](https://replit.com/~) to develop Python and Pygame code. 
 If you want to install Python locally you can get it from [www.python.org](www.python.org).  (We'll get on to Pygame later but I'll not here that Pygame can be fiddly to install and you need to be careful to install matching Python and Pygame versions). 
 
 

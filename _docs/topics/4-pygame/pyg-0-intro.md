@@ -3,11 +3,11 @@ title: Pygame - Introduction
 permalink: /docs/pyg-0-intro/
 ---
 
-## Pygame On repl.it
+## Pygame On replit.com
 
-Repl.it, the browser based code compiler, supports Pygame. If you haven't already [signed up for a repl.it account](repl.it) please do so now.  
+replit.com, the browser based code compiler, supports Pygame. If you haven't already [signed up for a replit.com account](replit.com) please do so now.  
 
-Once you've registered you can log in. Then go to [https://repl.it/@andyguest/pygHelloWorld](https://repl.it/@andyguest/pygHelloWorld) and click on the `Fork` button at the top of the screen. Then click on the three lines icon at the top left of the screen and select `My repls` from the pop out menu. From their click on `pygHelloWorld` to open your copy of my Pygame HelloWorld programme. Run it by clicking on the green triangle button at the top of the screen. (I recommend going in to the settings by using the cog icon on the left of the screen and change the Layout to Stacked).  
+Once you've registered you can log in. Then go to [https://replit.com/@andyguest/pygHelloWorld](https://replit.com/@andyguest/pygHelloWorld) and click on the `Fork` button at the top of the screen. Then click on the three lines icon at the top left of the screen and select `My repls` from the pop out menu. From their click on `pygHelloWorld` to open your copy of my Pygame HelloWorld programme. Run it by clicking on the green triangle button at the top of the screen. (I recommend going in to the settings by using the cog icon on the left of the screen and change the Layout to Stacked).  
 
 Impressive huh? Okay, it's kinda pathetic, it opens up a window. It sets the title to "Hello World!". That's about it. Click the stop button at the top of the screen (with the square on it) to end the 'game'.    Or you can click on the X at the top right of the game window.  
 

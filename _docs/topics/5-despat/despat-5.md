@@ -9,8 +9,8 @@ https://en.wikipedia.org/wiki/Prisoner%27s_dilemma
 
 #### Exercise 1 
 
-1. Log in to repl.it
-2. Go to [https://repl.it/@andyguest/pyPrisonersDilemma](https://repl.it/@andyguest/pyPrisonersDilemma)
+1. Log in to replit.com
+2. Go to [https://replit.com/@andyguest/pyPrisonersDilemma](https://replit.com/@andyguest/pyPrisonersDilemma)
 3. Click on the `fork` button at the top of the window to make a copy of the code in your own repls
 4. Click on the three lines at the top left of the window and then `My Repls` in the pop out menu
 5. Open the `pyPrisonersDilemma` repl from your area

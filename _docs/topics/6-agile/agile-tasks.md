@@ -7,21 +7,21 @@ This session I'd like you to focus on getting your group organised and prepared 
 
 ## Project Setup
 
-### 1. Repl.it Team
+### 1. replit.com Team
 
-Log in to Repl.it. At the bottom of the menu bar on the left you'll see "Teams BETA" link. **One** of your team should click on that link then click on the "Create a team" button to create a Repl.it team for your group. Either manually invite everyone in your team and me (andyguest on Repl.it) or pass out the invite link to the team (and me).   
+Log in to replit.com. At the bottom of the menu bar on the left you'll see "Teams BETA" link. **One** of your team should click on that link then click on the "Create a team" button to create a replit.com team for your group. Either manually invite everyone in your team and me (andyguest on replit.com) or pass out the invite link to the team (and me).   
 
 Please pick a sensible name for your group, certainly nothing offensive!  
 
 Any Repls you create within the Team are automatically accessible to the rest of the team and can be "multiplayered", multiple people can work on the repl at the same time. Alternatively you can work using separate repls within the account and bring the code together as components get completed.  
 
-There is also a messenger type communicator built in to Repl.it.  
+There is also a messenger type communicator built in to replit.com.  
 
 ### 2. Team GitHub
 
-One of your team should set up a GitHub account for the team. Make sure everyone in the team (and me) knows the GitHub account name. You can then link the repls you create directly to GitHub within Repl.it to have version/source control. (I'm not sure but you may need to ensure everyone knows the password to the GitHub or, once the repl.it GitHub link has been set up it may remember it).  
+One of your team should set up a GitHub account for the team. Make sure everyone in the team (and me) knows the GitHub account name. You can then link the repls you create directly to GitHub within replit.com to have version/source control. (I'm not sure but you may need to ensure everyone knows the password to the GitHub or, once the replit.com GitHub link has been set up it may remember it).  
 
-The GitHub/Repl.it linking will also mean if you want to work on your computer using a different IDE you should be able to clone the code from GitHub and do so. *If anyone in your team chooses to do this then everyone in your team **must** ensure they pull from GitHub before working and push back to it after it*. And please ensure the commit messages are meaningful, and include date/time and who made the changes.  
+The GitHub/replit.com linking will also mean if you want to work on your computer using a different IDE you should be able to clone the code from GitHub and do so. *If anyone in your team chooses to do this then everyone in your team **must** ensure they pull from GitHub before working and push back to it after it*. And please ensure the commit messages are meaningful, and include date/time and who made the changes.  
 
 ### 3. Team Communication Channel
 

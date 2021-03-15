@@ -41,7 +41,7 @@ You should build on your previous skills in
 
 The assessment for this module is in two parts. 
 
-**Group Project** Your group has to design and deliver a game prototype. It should be developed in Python, using Pygame and should run on repl.it.  Your game should be developed using agile project management. Your game should be object-oriented and use at least three design patterns other than the Game Loop and Update patterns (Pygame already handles that for you). The game should be accompanied by a document describing the design patterns used, a description of how and why they were used.
+**Group Project** Your group has to design and deliver a game prototype. It should be developed in Python, using Pygame and should run on replit.com.  Your game should be developed using agile project management. Your game should be object-oriented and use at least three design patterns other than the Game Loop and Update patterns (Pygame already handles that for you). The game should be accompanied by a document describing the design patterns used, a description of how and why they were used.
 
 **Reflective Learning Journal** Each student has to submit thier own, personal reflective learning journal. This should be in the form of a journal kept from the start of the project and should detail personal responsibilties and activities for the project, indicate meetings held and attended, etc. It should also have a reflective component where the student looks back over the project and considers what happened. This should describe what worked well and poorly, describe why and what was learned from the experience.
 

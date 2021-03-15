@@ -81,8 +81,8 @@ print(myRect.right)
 
 #### Exercise 1 
 
-1. Log in to repl.it
-2. Go to [https://repl.it/@andyguest/pygDrawingPrimitives](https://repl.it/@andyguest/pygDrawingPrimitives)
+1. Log in to replit.com
+2. Go to [https://replit.com/@andyguest/pygDrawingPrimitives](https://replit.com/@andyguest/pygDrawingPrimitives)
 3. Click on the `fork` button at the top of the window to make a copy of the code in your own repls
 4. Click on the three lines at the top left of the window and then `My Repls` in the pop out menu
 5. Open the `pygDrawingPrimitives` repl from your area

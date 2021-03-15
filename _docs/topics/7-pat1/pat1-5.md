@@ -7,7 +7,7 @@ Rather than pointlessly copying and pasting all the text from [https://gameprogr
 
 ## [Game Programming Patterns - State Pattern](https://gameprogrammingpatterns.com/state.html)
 
-Code at [https://repl.it/@andyguest/pyStatePattern1](https://repl.it/@andyguest/pyStatePattern1)
+Code at [https://replit.com/@andyguest/pyStatePattern1](https://replit.com/@andyguest/pyStatePattern1)
 
 ### Enum
 
@@ -60,7 +60,7 @@ class Heroine:
 
 ## Heroine State Pattern 
 
-Code at [https://repl.it/@andyguest/pyStatePattern2](https://repl.it/@andyguest/pyStatePattern2)
+Code at [https://replit.com/@andyguest/pyStatePattern2](https://replit.com/@andyguest/pyStatePattern2)
 
 ```python
 from enum import Enum, auto

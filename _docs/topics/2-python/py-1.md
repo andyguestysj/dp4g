@@ -9,15 +9,15 @@ Python applications are launched from the command line with `python filename.py`
 
 Python acts like a scripting language. When you run a python file the code in the file executes from top to bottom.  
 
- <iframe height="400px" width="100%" src="https://repl.it/@andyguest/pyHelloWorld?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
+ <iframe height="400px" width="100%" src="https://replit.com/@andyguest/pyHelloWorld?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
 
 This is the main body of the code. Functions and classes are defined above the main body of code (or in separate files) and are not execute automatically. They are only executed when called from the main body of the code.  
 
-<iframe height="400px" width="100%" src="https://repl.it/@andyguest/pyFirstFunction?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
+<iframe height="400px" width="100%" src="https://replit.com/@andyguest/pyFirstFunction?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
 
 In Python files you will often find a main wrapper. It looks like this  
 
-<iframe height="400px" width="100%" src="https://repl.it/@andyguest/pyMainWrapper?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
+<iframe height="400px" width="100%" src="https://replit.com/@andyguest/pyMainWrapper?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
 
 A function named `main()` is defined and the top level of code is written in there, just like a Java application. At the bottom of the file is an if statement  
 ```python
@@ -154,8 +154,8 @@ While Python variable have no fixed type it is sometimes useful to ensure data h
 
 #### Exercise 1 
 
-1. Log in to repl.it
-2. Go to [https://repl.it/@andyguest/pyBroken](https://repl.it/@andyguest/pyBroken)
+1. Log in to replit.com
+2. Go to [https://replit.com/@andyguest/pyBroken](https://replit.com/@andyguest/pyBroken)
 3. Click on the `fork` button at the top of the window to make a copy of the code in your own repls
 4. Click on the three lines at the top left of the window and then `My Repls` in the pop out menu
 5. Open the `pyBroken` repl from your area

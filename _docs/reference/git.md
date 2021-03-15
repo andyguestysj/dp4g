@@ -19,6 +19,6 @@ permalink: /docs/git/
 
 ### GitHub
 
-GitHub is another repository that uses the Git systems. repl.it is closely integrated with GitHub, you can easily back up your work from repl.it to GitHub. You can also back up to GitLab but it is not as easy.  
+GitHub is another repository that uses the Git systems. replit.com is closely integrated with GitHub, you can easily back up your work from replit.com to GitHub. You can also back up to GitLab but it is not as easy.  
 
 You can sign up for a free GitHub account at [https://github.com/](https://github.com/)

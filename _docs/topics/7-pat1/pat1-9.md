@@ -7,7 +7,7 @@ Rather than pointlessly copying and pasting all the text from [https://gameprogr
 
 ## [Game Programming Patterns - Prototype Pattern](https://gameprogrammingpatterns.com/prototype.html)
 
-[Code in replit](https://repl.it/@andyguest/pyPrototypeGPP)  
+[Code in replit](https://replit.com/@andyguest/pyPrototypeGPP)  
 
 
 ```python

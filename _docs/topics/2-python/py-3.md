@@ -119,8 +119,8 @@ With the `continue` statement we can stop the current iteration of the loop, and
 
 #### Exercise 1 
 
-1. Log in to repl.it
-2. Go to [https://repl.it/@andyguest/pyBranchAndLoop](https://repl.it/@andyguest/pyBranchAndLoop)
+1. Log in to replit.com
+2. Go to [https://replit.com/@andyguest/pyBranchAndLoop](https://replit.com/@andyguest/pyBranchAndLoop)
 3. Click on the `fork` button at the top of the window to make a copy of the code in your own repls
 4. Click on the three lines at the top left of the window and then `My Repls` in the pop out menu
 5. Open the `pyBranchAndLoop` repl from your area

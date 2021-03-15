@@ -222,5 +222,5 @@ streetRacer.setGoAlgorithm(GoByDrivingAlgorithm())
 
 It is largely a matter of taste which you use.  
 
-[Code from this page](https://repl.it/@andyguest/pyCompVInherit)
+[Code from this page](https://replit.com/@andyguest/pyCompVInherit)
 
