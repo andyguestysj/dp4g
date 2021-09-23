@@ -12,3 +12,4 @@ Software Engineering Design Patterns
 
 The briefs are also available on Moodle.
 
+ 
