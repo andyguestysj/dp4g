@@ -80,3 +80,7 @@ Use Case Diagrams are used to depict the functionality of a system or a part of 
 A sequence diagram simply depicts interaction between objects in a sequential order i.e. the order in which these interactions take place.We can also use the terms event diagrams or event scenarios to refer to a sequence diagram.   
 
 ![UML Sequence Diagram](/assets/img/uml_seq.jpg "UML Sequence Diagram")
+
+## UML Notes From Programming 02
+
+[UML From Programming 02](https://ysjprog02.netlify.app/docs/7-uml-1/)

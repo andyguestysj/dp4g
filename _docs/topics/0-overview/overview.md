@@ -45,4 +45,4 @@ The assessment for this module is in two parts.
 
 **Reflective Learning Journal** Each student has to submit thier own, personal reflective learning journal. This should be in the form of a journal kept from the start of the project and should detail personal responsibilties and activities for the project, indicate meetings held and attended, etc. It should also have a reflective component where the student looks back over the project and considers what happened. This should describe what worked well and poorly, describe why and what was learned from the experience.
 
-The full brief will be on Moodle and is on the Assessment section of the website.
+The full brief will be on Moodle and on the Assessment section of the website.
