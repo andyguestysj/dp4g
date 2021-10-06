@@ -3,6 +3,8 @@ title: Software Engineering
 permalink: /docs/intro/
 ---
 
+Video of this lecture [https://web.microsoftstream.com/video/5b946d86-f2bb-4fd4-a44c-0d373dcc8fe3](https://web.microsoftstream.com/video/5b946d86-f2bb-4fd4-a44c-0d373dcc8fe3)
+
 ## Contents
 
 1. Tradition Software Engineering
