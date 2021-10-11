@@ -184,11 +184,4 @@ dict.update(new_dict)
 ```
 
 
-#### Exercise 1 
 
-1. Log in to replit.com
-2. Go to [https://replit.com/@andyguest/pyLists](https://replit.com/@andyguest/pyLists)
-3. Click on the `fork` button at the top of the window to make a copy of the code in your own repls
-4. Click on the three lines at the top left of the window and then `My Repls` in the pop out menu
-5. Open the `pyList` repl from your area
-6. Work your way through the tasks in the code - they are in the comments
