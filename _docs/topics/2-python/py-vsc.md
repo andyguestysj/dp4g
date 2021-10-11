@@ -16,6 +16,7 @@ VSC has many extensions available for it, making it usable as an editor for most
 We'll be using the extensions listed below
 * Python v2021.10.1317843341
 * Pylance v2021.10.0
+* Code Runner v0.11.6
 * GitLens v11.6.0
   
 You might find the extensions below useful

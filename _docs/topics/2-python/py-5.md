@@ -5,27 +5,27 @@ permalink: /docs/py-5/
 
 #### Exercise 1 - Fixing Python
 
-1. Clone the repository [https://github.com/andyguestysj/pyBroken.git] and open it.
+1. Clone the repository (https://github.com/andyguestysj/pyBroken.git) and open it.
 2. Fix the code so it runs correctly
 
 #### Exercise 2 - Lists
 
-1. Clone the repository [https://github.com/andyguestysj/pyLists.git] and open it
+1. Clone the repository (https://github.com/andyguestysj/pyLists.git) and open it
 2. Work your way through the tasks in the code - they are in the comments
 
 #### Exercise 3 - Branching & Looping
 
-1. Clone the repository [https://github.com/andyguestysj/pyBranchAndLoop.git] and open it.
+1. Clone the repository (https://github.com/andyguestysj/pyBranchAndLoop.git) and open it.
 2. Work your way through the tasks in the code - they are in the comments
 
 #### Exercise 4 - Functions
 
-1. Clone the repository [https://github.com/andyguestysj/pyFunctions.git] and open it.
+1. Clone the repository (https://github.com/andyguestysj/pyFunctions.git) and open it.
 2. Work your way through the tasks in the code - they are in the comments
 
 #### Exercise 5 - Word Task
 
-1. Clone the repository [https://github.com/andyguestysj/pyWordTask.git] and open it.
+1. Clone the repository (https://github.com/andyguestysj/pyWordTask.git) and open it.
 2. Work your way through the tasks in the code - they are in the comments
 
 You will need the following Python functions  
