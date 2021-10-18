@@ -52,9 +52,7 @@ MultiDerived.mro()
 
 ![Multiple Inheritance](/assets/img/minherit2.jpg "Inheriting from multiple parent classes")
 
-#### Exercise 2
-1. Return to pyFirstClass
-2. Print out `__mro__` and `mro()` for your mutant dog class
+
 
 
 ## Operator Overloading
