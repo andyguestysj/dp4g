@@ -45,8 +45,9 @@
 
 - title: 3. Python OOPs
   docs:
-#  - pyoops-1
-#  - pyoops-2
+  - pyoops-1
+  - pyoops-2
+  - pyoops-task1
 
 - title: 4. Pygame
   docs:
