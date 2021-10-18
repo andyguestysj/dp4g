@@ -118,13 +118,4 @@ p3 = p1 + p2
 |Greater than|p1 > p2|p1.__gt__(p2)|
 |Greater than or equal to|p1 >= p2|p1.__ge__(p2)|
 
-#### Exercise 2
-1. Return to pyFirstClass
-2. Override the addition operator on the `Dog` class so that you can create a new dog object with the code below
-```python
-fred = Dog("Fred",5)
-wilma = Dog("Wilma",4)
-pebbles = fred + wilma
-```
-The new dog's name should be set to "Child of Fred and Wilma" and its age should be set to 0.
 
