@@ -22,13 +22,7 @@ class MultiDerived(Base1, Base2):
 
 The `MultiDerived` class inherits from both `Base1` and `Base2` classes.  
 
-#### Exercise 1 
-1. Return to replit.com and your pyFirstClass code from the previous page.
-2. Give the JackRusselTerrier a method called "is_scrappy()" that returns a string describing how the dog behaves around others
-3. Give the subclass you created a method no other class has that describes a unique feature of your dog
-4. Create a new mutant dog class that inherits from both your dog class and JackRusselTerrier
-5. Create an object of this new class
-6. Verify that you can call both the scrappy() method and your new method on the mutant dog
+
 
 ### Method Resolution Order
 
