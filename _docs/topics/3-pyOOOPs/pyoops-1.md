@@ -3,6 +3,9 @@ title: Python OOPs
 permalink: /docs/pyoops-1/
 ---
 
+Lecture Video [https://web.microsoftstream.com/video/a44d9e35-1b68-467d-a447-8dbf2b4e7b8f](https://web.microsoftstream.com/video/a44d9e35-1b68-467d-a447-8dbf2b4e7b8f)  
+
+
 ## Object Oriented Python
 
 Python may be used as a simple scripting language but it is a fully object oriented programming language, but as with every language it has its own approach to how it implements classes and other OOP features.  
