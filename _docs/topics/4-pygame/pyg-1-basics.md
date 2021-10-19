@@ -47,11 +47,14 @@ Pygame has two ways to represent rectangular areas (just like there are two ways
 3. The width (in pixels) of the rectangle.
 4. Then height (in pixels) of the rectangle.
 The second way is as a pygame.Rect object, which we will call Rect objects for short. For example, the code below creates a Rect object with a top left corner at (10, 20) that is 200 pixels wide and 300 pixels tall:  
+
 ```python
 import pygame
 myRect = pygame.Rect(10, 20, 200, 300)
 ```
+
 The handy thing about this is that the Rect object automatically calculates the coordinates for other features of the rectangle. For example, if you need to know the X coordinate of the right edge of the pygame.Rect object we stored in the myRect variable, you can just access the Rect object’s right attribute:  
+
 ```python
 print(myRect.right)
 ```
@@ -78,21 +81,14 @@ print(myRect.right)
 
 ## Drawing Primitive Objects
 
-
-#### Exercise 1 
-
-1. Log in to replit.com
-2. Go to [https://replit.com/@andyguest/pygDrawingPrimitives](https://replit.com/@andyguest/pygDrawingPrimitives)
-3. Click on the `fork` button at the top of the window to make a copy of the code in your own repls
-4. Click on the three lines at the top left of the window and then `My Repls` in the pop out menu
-5. Open the `pygDrawingPrimitives` repl from your area
-6. Run the code
+<iframe height="400px" width="100%" src="https://replit.com/@andyguest/pygDrawingPrimitives?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>  
 
 ### Looking at the code
 
 In addition to the sections described on the previous page we have some new ones.  
 
 The fist new section sets up some named CONSTANTS to represent colours. It is easier to remember colour names than three number colour descriptions.  
+
 ```python
 # set up the colors
 BLACK = (  0,   0,   0)
@@ -101,7 +97,9 @@ RED = (255,   0,   0)
 GREEN = (  0, 255,   0)
 BLUE = (  0,   0, 255)
 ```
+
 The next section draws on the surface object
+
 ```python
 # draw on the surface object
 DISPLAYSURF.fill(WHITE)
@@ -161,6 +159,3 @@ Really it is best not to think about *drawing* at all. Think of it as building a
 
 If you want an analogy think of a 3D game like a stop motion animation. The characters and other objects are placed in a set and a photo is taken. The characters are then repositioned slightly and another photo is taken and so on. Each individual photo is a single render and each "game loop" another photo is taken and displayed. The series of rapidly changing images gives the illusion of movement.  
 
-#### Exercise 2
-
-1. Go back to your code and play around with the parameters to the drawing lines of code and see what happens.
