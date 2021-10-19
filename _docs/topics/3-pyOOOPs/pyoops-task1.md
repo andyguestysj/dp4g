@@ -4,7 +4,7 @@ permalink: /docs/pyoops-task1/
 ---
 #### Exercise 1 
 
-1. Clone the repository [https://github.com/andyguestysj/pyFirstClass.git][(https://github.com/andyguestysj/pyFirstClass.git) and open it.
+1. Clone the repository [https://github.com/andyguestysj/pyFirstClass.git](https://github.com/andyguestysj/pyFirstClass.git) and open it.
 2. Work your way through the tasks in the code - they are in the comments
 
 #### Exercise 2 
