@@ -17,6 +17,7 @@ permalink: /docs/pyoops-task1/
 #### Exercise 3
 1. Return to pyFirstClass
 2. Print out `__mro__` and `mro()` for your mutant dog class
+
 #### Exercise 4
 1. Return to pyFirstClass
 2. Override the addition operator on the `Dog` class so that you can create a new dog object with the code below
