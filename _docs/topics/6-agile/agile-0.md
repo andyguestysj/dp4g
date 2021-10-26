@@ -3,6 +3,8 @@ title: Introduction
 permalink: /docs/agile-0/
 ---
 
+[Lecture Video](https://web.microsoftstream.com/video/61fa9446-7a3c-47a7-8cd1-308836fba5c0)
+
 ## What is Agile?
 At its core, Agile is a set of principles that can be used to guide the delivery of a software project. It encourages communication, collaboration and working software over documentation and plans that cannot change.  
 
