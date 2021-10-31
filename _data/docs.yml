@@ -58,24 +58,24 @@
   - agile-4
   #- agile-tasks
 
-- title: 5. Pygame
-  docs:
+#- title: 5. Pygame
+#  docs:
 #  - pyg-0-intro
 #  - pyg-1-basics
 #  - pyg-2-animation
 
-- title: 6. Design Patterns Introduction
+- title: 5. Design Patterns Introduction
   docs:
-#  - despat-0-intro
-#  - despat-1
-#  - despat-2
-#  - despat-3
-#  - despat-4
-#  - despat-5
+  - despat-0-intro
+  - despat-1
+  - despat-2
+  - despat-3
+  - despat-4
+  - despat-5
 
 
 
-- title: 7. Design Patterns
+- title: 6. Design Patterns
   docs:
 #  - pat1-0
 #  - pat1-1
@@ -89,13 +89,13 @@
 #  - pat1-9
 #  - pat1-10
 
-- title: 8. Other Pattern Concepts
+- title: 7. Other Pattern Concepts
   docs:
 #  - other-0
 #  - other-1  
 
 
-- title: Project Sprints
-  docs:
+#- title: Project Sprints
+#  docs:
 #  - sprint-0
 #  - sprint-1
