@@ -1,5 +1,5 @@
 ---
-title: Structure
+title: Design Pattern Structure
 permalink: /docs/despat-1/
 ---
 
