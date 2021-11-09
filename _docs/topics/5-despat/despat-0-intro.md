@@ -3,6 +3,8 @@ title: Introduction
 permalink: /docs/despat-0-intro/
 ---
 
+[Video of lecture](https://web.microsoftstream.com/video/ee05df38-6c6e-433f-900e-1f07542112d6)  
+
 ## Design Patterns
 
 Design patterns represent the best practices used by experienced object oriented software developers. They are solutions to general problems that software developers faced during software development. These solutions were obtained by trial and error by numerous software developers over quite a substantial period of time.
