@@ -42,21 +42,28 @@
   - py-2
   - py-3
   - py-5
-
-- title: 3. Python OOPs
-  docs:
   - pyoops-1
   - pyoops-2
   - pyoops-task1
+   - pyg-0-intro
+  - pyg-1-basics
+  - pyg-2-animation
 
-- title: 4. Scrum Projects
+
+#- title: 3. Python OOPs
+#  docs:
+#  - pyoops-1
+#  - pyoops-2
+#  - pyoops-task1
+
+- title: 3. Scrum Projects
   docs:
   - agile-0
   - agile-1
   - agile-2
   - agile-3
   - agile-4
-  #- agile-tasks
+  - agile-tasks
 
 #- title: 5. Pygame
 #  docs:
@@ -64,7 +71,7 @@
 #  - pyg-1-basics
 #  - pyg-2-animation
 
-- title: 5. Design Patterns Introduction
+- title: 4. Design Patterns Introduction
   docs:
   - despat-0-intro
   - despat-2
@@ -75,7 +82,7 @@
 
 
 
-- title: 6. Design Patterns
+- title: 5. Design Patterns
   docs:
 #  - pat1-0
 #  - pat1-1
