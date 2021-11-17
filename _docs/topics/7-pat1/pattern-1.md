@@ -1,6 +1,6 @@
 ---
 title: Observer Pattern
-permalink: /docs/pat1-8/
+permalink: /docs/pattern-1/
 ---
 
 Rather than pointlessly copying and pasting all the text from [https://gameprogrammingpatterns.com/](https://gameprogrammingpatterns.com/) I'll just put the Python versions of the code from that site here.  
