@@ -1,120 +1,144 @@
 ---
-title: Observer Pattern
+title: Model-View-Controller Pattern
 permalink: /docs/pattern-1/
 ---
 
-Rather than pointlessly copying and pasting all the text from [https://gameprogrammingpatterns.com/](https://gameprogrammingpatterns.com/) I'll just put the Python versions of the code from that site here.  
+**Adapted from**  
+* [GeeksForGeeks](https://www.geeksforgeeks.org/mvc-design-pattern/)  
+* [tutorialspoint.com](https://www.tutorialspoint.com/design_pattern/mvc_pattern.htm)
 
-The observer method is a **Behavioral Design Pattern** which allows you to define or create a subscription mechanism to send the notification to the multiple objects about any new event that happens to the object that they are observing. The subject is basically observed by multiple objects. The subject needs to be monitored and whenever there is a change in the subject, the observers are being notified about the change. This pattern defines one to Many dependencies between objects so that one object changes state, all of its dependents are notified and updated automatically.  
+### Model View Controller
 
-## [Game Programming Patterns - Observer Pattern](https://gameprogrammingpatterns.com/observer.html)
+The Model View Controller (MVC) design pattern specifies that an application consist of a data model, presentation information, and control information. The pattern requires that each of these be separated into different objects.  
 
-![Observer pattern diagram](/assets/img/pat1/Observer.png "Observer pattern diagram")    
+MVC is more of an architectural pattern, but not for complete application. MVC mostly relates to the UI / interaction layer of an application. You’re still going to need business logic layer, maybe some service layer and data access layer.  
 
-[Code in replit](https://replit.com/@andyguest/pyObserver)  
-[Originally from https://www.geeksforgeeks.org/observer-method-python-design-patterns/](https://www.geeksforgeeks.org/observer-method-python-design-patterns/) so is not a perfect match for the Game Patterns books  
+**UML Diagram MVC Design Pattern**  
+![Model View Controller Pattern Diagram](/assets/img/pat1/MVC-Design-Pattern.png "Model View Controller pattern diagram") 
 
-```python
-class Subject: 
-  
-    """Represents what is being observed"""
-  
-    def __init__(self): 
-  
-        """create an empty observer list"""
-  
-        self._observers = [] 
-  
-    def notify(self, modifier = None): 
-  
-        """Alert the observers"""
-  
-        for observer in self._observers: 
-            if modifier != observer: 
-                observer.update(self) 
-  
-    def attach(self, observer): 
-  
-        """If the observer is not in the list, 
-        append it into the list"""
-  
-        if observer not in self._observers: 
-            self._observers.append(observer) 
-  
-    def detach(self, observer): 
-  
-        """Remove the observer from the observer list"""
-  
-        try: 
-            self._observers.remove(observer) 
-        except ValueError: 
-            pass
-  
-  
-  
-class Data(Subject): 
-  
-    """monitor the object"""
-  
-    def __init__(self, name =''): 
-        Subject.__init__(self) 
-        self.name = name 
-        self._data = 0
-  
-    @property
-    def data(self): 
-        return self._data 
-  
-    @data.setter 
-    def data(self, value): 
-        self._data = value 
-        self.notify() 
-  
-  
-class HexViewer: 
-  
-    """updates the Hewviewer"""
-  
-    def update(self, subject): 
-        print('HexViewer: Subject {} has data 0x{:x}'.format(subject.name, subject.data)) 
-  
-class OctalViewer: 
-  
-    """updates the Octal viewer"""
-  
-    def update(self, subject): 
-        print('OctalViewer: Subject' + str(subject.name) + 'has data '+str(oct(subject.data))) 
-  
-  
-class DecimalViewer: 
-  
-    """updates the Decimal viewer"""
-  
-    def update(self, subject): 
-        print('DecimalViewer: Subject % s has data % d' % (subject.name, subject.data)) 
-  
-"""main function"""
-  
-if __name__ == "__main__": 
-  
-    """provide the data"""
-  
-    obj1 = Data('Data 1') 
-    obj2 = Data('Data 2') 
-  
-    view1 = DecimalViewer() 
-    view2 = HexViewer() 
-    view3 = OctalViewer() 
-  
-    obj1.attach(view1) 
-    obj1.attach(view2) 
-    obj1.attach(view3) 
-  
-    obj2.attach(view1) 
-    obj2.attach(view2) 
-    obj2.attach(view3) 
-  
-    obj1.data = 10
-    obj2.data = 15
+* The **Model** contains only the pure application data, it contains no logic describing how to present the data to a user.
+* The **View** presents the model’s data to the user. The view knows how to access the model’s data, but it does not know what this data means or what the user can do to manipulate it.
+* The **Controller** exists between the view and the model. It listens to events triggered by the view (or another external source) and executes the appropriate reaction to these events. In most cases, the reaction is to call a method on the model. Since the view and the model are connected through a notification mechanism, the result of this action is then automatically reflected in the view.
+
+#### Implementation
+
+We are going to create a *Student* object acting as a model. *StudentView* will be a view class which can print student details on console and *StudentController* is the controller class responsible to store data in Student object and update view StudentView accordingly.  
+
+*MVCPatternDemo*, our demo class, will use *StudentController* to demonstrate use of MVC pattern.  
+
+**UML Diagram MVC Design Pattern**  
+![Model View Controller Class Diagram](/assets/img/pat1/mvc_pattern_uml_diagram.jpg "Model View Controller Class Diagram") 
+
+#### Code
+
+```java
+class Student
+{
+	private String rollNo;
+	private String name;
+	
+	public String getRollNo()
+	{
+		return rollNo;
+	}
+	
+	public void setRollNo(String rollNo)
+	{
+		this.rollNo = rollNo;
+	}
+	
+	public String getName()
+	{
+		return name;
+	}
+	
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+}
+
+class StudentView
+{
+	public void printStudentDetails(String studentName, String studentRollNo)
+	{
+		System.out.println("Student: ");
+		System.out.println("Name: " + studentName);
+		System.out.println("Roll No: " + studentRollNo);
+	}
+}
+
+class StudentController
+{
+	private Student model;
+	private StudentView view;
+
+	public StudentController(Student model, StudentView view)
+	{
+		this.model = model;
+		this.view = view;
+	}
+
+	public void setStudentName(String name)
+	{
+		model.setName(name);		
+	}
+
+	public String getStudentName()
+	{
+		return model.getName();		
+	}
+
+	public void setStudentRollNo(String rollNo)
+	{
+		model.setRollNo(rollNo);		
+	}
+
+	public String getStudentRollNo()
+	{
+		return model.getRollNo();		
+	}
+
+	public void updateView()
+	{				
+		view.printStudentDetails(model.getName(), model.getRollNo());
+	}	
+}
+
+class MVCPatternDemo
+{
+	public static void main(String[] args)
+	{
+		Student model = retriveStudentFromDatabase();
+
+		StudentView view = new StudentView();
+
+		StudentController controller = new StudentController(model, view);
+
+		controller.updateView();
+
+		controller.setStudentName("Vikram Sharma");
+
+		controller.updateView();
+	}
+
+	private static Student retriveStudentFromDatabase()
+	{
+		Student student = new Student();
+		student.setName("Lokesh Sharma");
+		student.setRollNo("15UCS157");
+		return student;
+	}
+	
+}
 ```
+
+#### Advantages
+* Multiple developers can work simultaneously on the model, controller and views.
+* MVC enables logical grouping of related actions on a controller together. The views for a specific model are also grouped together.
+* Models can have multiple views.
+
+#### Disadvantages
+* The framework navigation can be complex because it introduces new layers of abstraction and requires users to adapt to the decomposition criteria of MVC.
+* Knowledge on multiple technologies becomes the norm. Developers using MVC need to be skilled in multiple technologies.
 
