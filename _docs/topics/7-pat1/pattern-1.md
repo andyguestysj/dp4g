@@ -3,22 +3,28 @@ title: Model-View-Controller Pattern
 permalink: /docs/pattern-1/
 ---
 
-**Adapted from**  
-* [GeeksForGeeks](https://www.geeksforgeeks.org/mvc-design-pattern/)  
-* [tutorialspoint.com](https://www.tutorialspoint.com/design_pattern/mvc_pattern.htm)
-
 ### Model View Controller
 
-The Model View Controller (MVC) design pattern specifies that an application consist of a data model, presentation information, and control information. The pattern requires that each of these be separated into different objects.  
+Model–view–controller (MVC) is a software design pattern commonly used for developing user interfaces that divide the related program logic into three interconnected elements. This is done to separate internal representations of information from the ways information is presented to and accepted from the user.  
+
+Traditionally used for desktop graphical user interfaces (GUIs), this pattern became popular for designing web applications. Popular programming languages have MVC frameworks that facilitate implementation of the pattern.  
+
+The Model View Controller design pattern specifies that an application consist of a data model, presentation information, and control information. The pattern requires that each of these be separated into different objects.   
 
 MVC is more of an architectural pattern, but not for complete application. MVC mostly relates to the UI / interaction layer of an application. You’re still going to need business logic layer, maybe some service layer and data access layer.  
 
 **UML Diagram MVC Design Pattern**  
 ![Model View Controller Pattern Diagram](/assets/img/pat1/MVC-Design-Pattern.png "Model View Controller pattern diagram") 
 
-* The **Model** contains only the pure application data, it contains no logic describing how to present the data to a user.
-* The **View** presents the model’s data to the user. The view knows how to access the model’s data, but it does not know what this data means or what the user can do to manipulate it.
-* The **Controller** exists between the view and the model. It listens to events triggered by the view (or another external source) and executes the appropriate reaction to these events. In most cases, the reaction is to call a method on the model. Since the view and the model are connected through a notification mechanism, the result of this action is then automatically reflected in the view.
+* **Model** The central component of the pattern. It is the application's dynamic data structure, independent of the user interface. It directly manages the data, logic and rules of the application.
+* **View** Any representation of information such as a chart, diagram or table. Multiple views of the same information are possible, such as a bar chart for management and a tabular view for accountants.
+* **Controller** Accepts input and converts it to commands for the model or view.
+
+In addition to dividing the application into these components, the model–view–controller design defines the interactions between them.  
+
+* The model is responsible for managing the data of the application. It receives user input from the controller.
+* The view renders presentation of the model in a particular format.
+* The controller responds to the user input and performs interactions on the data model objects. The controller receives the input, optionally validates it and then passes the input to the model.
 
 #### Implementation
 
@@ -142,3 +148,9 @@ class MVCPatternDemo
 * The framework navigation can be complex because it introduces new layers of abstraction and requires users to adapt to the decomposition criteria of MVC.
 * Knowledge on multiple technologies becomes the norm. Developers using MVC need to be skilled in multiple technologies.
 
+
+
+**Collated from**  
+* [GeeksForGeeks](https://www.geeksforgeeks.org/mvc-design-pattern/)  
+* [tutorialspoint.com](https://www.tutorialspoint.com/design_pattern/mvc_pattern.htm)
+* [Wikipedia](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
